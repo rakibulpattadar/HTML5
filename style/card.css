@@ -1,0 +1,46 @@
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.card-section{
+    text-align: center
+  
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+ 
+.card:hover{
+    background-color: aquamarine;
+}
+
+.card{
+    text-align: left;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px;
+    background-color: antiquewhite;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+button{
+    background-color: aqua;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    cursor: pointer;
+    margin: 10px;
+
+}
+button:hover{
+    background-color: lawngreen;
+}

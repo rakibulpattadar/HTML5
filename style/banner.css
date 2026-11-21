@@ -17,6 +17,7 @@ body{
     width: 400px;
     height: 400px;
     border-radius: 25px;
+    box-shadow: 20px 20px 20px;
 }
 .hero-container button{
     background-color: aqua;
@@ -24,4 +25,8 @@ body{
     padding: 10px 30px;
     font-size: 1.25em;
     cursor: pointer;
+    box-shadow: 10px 10px 10px;
+}
+.hero-container button:hover{
+    background-color: rgb(183, 7, 242);
 }
